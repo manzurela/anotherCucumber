@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Manzur on 5/23/2015.
  */
-//this is a sample work
+//this is a sample work and running from Jenkins
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features={"C:\\Users\\Manzur\\IdeaProjects\\anotherCucumber\\src\\test\\java\\resources\\facebook.feature"},
