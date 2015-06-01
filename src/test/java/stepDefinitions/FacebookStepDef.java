@@ -25,6 +25,7 @@ public class FacebookStepDef {
 
     @When("^I enter my valid user name, password$")
     public void i_enter_my_valid_user_name_password()  {
+        driver.findElement(By.className("android.widget.EditText")).clear();
         driver.findElement(By.className("android.widget.EditText")).sendKeys("qtppnt@gmail.com");
         driver.findElement(By.id("com.facebook.katana:id/login_password")).click();
         driver.findElement(By.id("com.facebook.katana:id/login_password")).sendKeys("may2015");
